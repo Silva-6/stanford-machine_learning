@@ -1,4 +1,5 @@
 # Supervised Learning
+## Objectives:
 * Define a regression model
 * Implement and visualize a cost function
 * Implement gradient descent
