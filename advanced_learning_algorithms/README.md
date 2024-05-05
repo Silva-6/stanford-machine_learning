@@ -1,5 +1,5 @@
-## Objectives
-<hr>
+# Advanced Learning Algorithms
+## Objectives:
 
 * Get familiar with the diagram and components of a neural network
 * Understand the concept of a "layer" in a neural network
