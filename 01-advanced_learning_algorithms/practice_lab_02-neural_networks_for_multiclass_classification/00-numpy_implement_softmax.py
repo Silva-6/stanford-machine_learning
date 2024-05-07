@@ -9,18 +9,15 @@ def my_softmax(z):
     Returns:
       a (ndarray (N,))  : softmax of z
     """
+    N = len(z)
+    a = np.zeros(N)
+    ez_sum = 0
+    for k in range(N):
+        ez_sum += np.exp(z[k])
+    for j in range(N):
+        a[j] = np.exp(z[j]) / ez_sum
 
-    def my_softmax(z):
-        N = len(z)
-
-        a = np.zeros(N)
-        ez_sum = 0
-        for k in range(N):
-            ez_sum += np.exp(z[k])
-        for j in range(N):
-            a[j] = np.exp(z[j]) / ez_sum
-
-        return a
+    return a
 
 # Or, a vector implementation:
 
