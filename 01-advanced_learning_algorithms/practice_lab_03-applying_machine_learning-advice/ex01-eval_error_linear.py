@@ -15,5 +15,4 @@ def eval_mse(y, yhat):
         err_i = ((yhat[i] - y[i]) ** 2)
         err += err_i
     err = err / (2 * m)
-
     return err
