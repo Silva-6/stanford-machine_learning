@@ -7,17 +7,17 @@ First, let's run the cell below to import all the packages that you will need du
 - [numpy](https://www.numpy.org) is the fundamental package for working with matrices in Python.
 - [matplotlib](https://matplotlib.org) is a famous library to plot graphs in Python.
 - ``utils.py`` contains helper functions for this assignment. You do not need to modify code in this file.
+```
+import numpy as np
 
-> import numpy as np
-> 
-> import matplotlib.pyplot as plt
-> 
-> from public_tests import *
-> 
-> from utils import *
->
-> %matplotlib inline
+import matplotlib.pyplot as plt
 
+from public_tests import *
+
+from utils import *
+
+%matplotlib inline
+```
 <a name="2"></a>
 ## 2 -  Problem Statement
 
