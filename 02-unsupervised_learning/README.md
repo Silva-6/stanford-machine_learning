@@ -1,5 +1,5 @@
 # Unsupervised Learning
-> Learn two key unsupervised learning algorithms: clustering and anomaly detection.
+> Learn two key unsupervised learning algorithms: Clustering and Anomaly detection.
 ## Objectives
 
 * Implement the k-means clustering algorithm.
