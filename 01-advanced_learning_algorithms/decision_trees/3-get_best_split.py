@@ -25,7 +25,7 @@ def get_best_split(X, y, node_indices):
 
     # Iterate through all features
     for feature in range(num_features):
-        info_gain = info_gain = compute_information_gain(X, y, node_indices, feature)
+        info_gain = compute_information_gain(X, y, node_indices, feature)
 
         # If the information gain is larger than the max seen so far
         if info_gain > max_info_gain:

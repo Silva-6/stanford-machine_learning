@@ -1,4 +1,3 @@
-from pkgs import *
 # UNQ_C2
 
 tf.random.set_seed(1234)  # for consistent results

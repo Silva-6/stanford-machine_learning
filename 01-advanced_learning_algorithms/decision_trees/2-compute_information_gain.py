@@ -26,21 +26,21 @@ def compute_information_gain(X, y, node_indices, feature):
     # You need to return the following variables correctly
     information_gain = 0
 
-    ### START CODE HERE ###
+    # START CODE HERE #
 
     node_entropy = compute_entropy(y_node)
     left_entropy = compute_entropy(y_left)
     right_entropy = compute_entropy(y_right)
 
     # compute the proportion of examples at the left branch
-    w_left = w_left = len(X_left) / len(X_node)
+    w_left = len(X_left) / len(X_node)
 
     # compute the proportion of examples at the right branch
     w_right = len(X_right) / len(X_node)
 
     weighted_entropy = w_left * left_entropy + w_right * right_entropy
-    information_gain = information_gain = node_entropy - weighted_entropy
+    information_gain = node_entropy - weighted_entropy
 
-    ### END CODE HERE ###
+    # END CODE HERE #
 
     return information_gain
