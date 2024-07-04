@@ -1,4 +1,4 @@
-# Machine-Learning
+# Machine-Learning.
 * Build ML models with NumPy & scikit-learn, build & train supervised models for prediction & binary classification tasks (linear, logistic regression)
 
 
